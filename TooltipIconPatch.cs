@@ -372,6 +372,19 @@ namespace TooltipIconPatch
 			TryAddDamageClassIcon(TooltipIcon, InfernalEclipseAPI, "LegendaryMelee", "TooltipIconPatch/Assets/TooltipIcons/InfernalLegendaryMelee");
 			TryAddDamageClassIcon(TooltipIcon, InfernalEclipseAPI, "LegendaryRanged", "TooltipIconPatch/Assets/TooltipIcons/InfernalLegendaryRanged");
 			TryAddDamageClassIcon(TooltipIcon, InfernalEclipseAPI, "LegendaryMagic", "TooltipIconPatch/Assets/TooltipIcons/InfernalLegendaryMagic");
+			TryAddDamageClassIcon(TooltipIcon, InfernalEclipseAPI, "LegendarySummonMeleeSpeed", "TooltipIconPatch/Assets/TooltipIcons/InfernalLegendarySummon");
+			TryAddDamageClassIcon(TooltipIcon, InfernalEclipseAPI, "CatlightDamage", "TooltipIconPatch/Assets/TooltipIcons/InfernalCatlight");
+			TryAddDamageClassIcon(TooltipIcon, InfernalEclipseAPI, "MergedThrowerRogue", "TooltipIconPatch/Assets/TooltipIcons/MergedThrowing");
+			TryAddDamageClassIcon(TooltipIcon, InfernalEclipseAPI, "LegendarySummon", "TooltipIconPatch/Assets/TooltipIcons/InfernalLegendarySummon");
+
+			// 以下 6 个为按 Mythic<职业>/Legendary<职业> 规律「预测」的名字，IEoR 目前均未实装。
+			// 名字纯属推测，上线后很可能需要改名；对不上时 TryFind 会静默跳过，不影响运行。
+			TryAddDamageClassIcon(TooltipIcon, InfernalEclipseAPI, "MythicRogue", "TooltipIconPatch/Assets/TooltipIcons/InfernalMythicRogue");
+			TryAddDamageClassIcon(TooltipIcon, InfernalEclipseAPI, "LegendaryRogue", "TooltipIconPatch/Assets/TooltipIcons/InfernalLegendaryRogue");
+			TryAddDamageClassIcon(TooltipIcon, InfernalEclipseAPI, "MythicBard", "TooltipIconPatch/Assets/TooltipIcons/InfernalMythicBard");
+			TryAddDamageClassIcon(TooltipIcon, InfernalEclipseAPI, "LegendaryBard", "TooltipIconPatch/Assets/TooltipIcons/InfernalLegendaryBard");
+			TryAddDamageClassIcon(TooltipIcon, InfernalEclipseAPI, "MythicHealer", "TooltipIconPatch/Assets/TooltipIcons/InfernalMythicHealer");
+			TryAddDamageClassIcon(TooltipIcon, InfernalEclipseAPI, "LegendaryHealer", "TooltipIconPatch/Assets/TooltipIcons/InfernalLegendaryHealer");
 		}
 
 		private static void RegisterClickerClassDamageIcons(Mod TooltipIcon, Mod ClickerClassMod)

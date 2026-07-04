@@ -46,6 +46,14 @@
 - OrchidShaman，兰花萨满，查无此人
 - OrchidShapeshifter，兰花野性者（拟态师）的野性伤害，等我做补充汉化一定改个名字
 - RedemptionRitualist，救赎魂仪师的仪式伤害
+- InfernalLegendarySummon，炼狱蚀光的传奇召唤伤害（LegendarySummonMeleeSpeed，分裂火鞭等武器使用）；同时复用于 LegendarySummon（本地化已预留名，类待实装）
+- InfernalCatlight，炼狱蚀光的星光猫伤害（CatlightDamage）
+- InfernalMythicRogue，炼狱蚀光的神话盗贼伤害
+- InfernalLegendaryRogue，炼狱蚀光的传说盗贼伤害
+- InfernalMythicBard，炼狱蚀光的神话音波伤害
+- InfernalLegendaryBard，炼狱蚀光的传说音波伤害
+- InfernalMythicHealer，炼狱蚀光的神话光辉伤害
+- InfernalLegendaryHealer，炼狱蚀光的传说光辉伤害
 - SOTSPrefixMaxVoid，暗影奥秘全知添加的“增加最大虚空值”
 - SOTSPrefixVoidCost，暗影奥秘全能添加的“减小虚空消耗”
 - SOTSPrefixVoidRegen，暗影奥秘缚魂添加的“虚空恢复量”
